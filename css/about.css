@@ -1,0 +1,138 @@
+.topnav {
+  position: absolute; /* Position the background text */
+  top: 0; /* At the bottom. Use top:0 to append it to the top */
+  background-color: black; /* Grey text */
+  width: 100%; /* Full width */
+  overflow: hidden;
+  align-items: center;
+}
+
+  .topnav a.home {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 0px;
+  }
+  
+  .topnav a.menu {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding:30px 10px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a.menu:hover {
+    font-size: 20px;
+  }
+
+  .icons{
+    float:right;
+    margin-right: 55px;
+  }
+
+  .fa{
+    font-size: 27px;
+    padding-right: 5px;
+  }
+
+body{
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+  background: rgb(129,129,129);
+  background: linear-gradient(265deg, rgba(129,129,129,0.8631827731092436) 38%, rgba(222,222,222,0.8) 57%);
+
+  /*Google Font*/
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Slab', serif;
+}
+
+#img1{
+      width: 400px;
+      padding-right: 1%;
+      padding-top: 10%;
+      border-radius: 70px;
+}
+.blocks{
+  position:relative;
+  top: 100px;
+}
+.block1{
+    display: block;
+    position: flex;
+    float:left;
+    padding: 3%;
+    color: black;
+    text-shadow: 0px 0px 1px black, 0 0 4px white;
+    margin: 0 auto;
+    margin-left: 280px;
+    text-align: center;
+}
+  .block1 h1{
+    margin-top: 10px;
+    padding-top:0px;
+    font-size: 23px;
+  }
+  .block1 p{
+    font-size: 20px;
+    text-align: center;
+  }
+
+.block2{
+    display: block;
+    float: left;
+    color: black;
+    text-shadow: 0.4px 0.4px 1px black, 0 0 4px white;
+    padding-top: 10%;
+    padding-left: 6%;
+    padding-bottom: 5%;
+    padding-right: auto;
+    font-size: 26px;
+}
+  .block2 label{
+    color: rgb(228, 110, 0);
+    text-decoration: underline;
+  }
+
+  .footer {
+    position: relative;
+    top:120px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.781); /* Grey text */
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*Google Font*/
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+  }
+  .footer a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 0px;
+    
+  }
+  .footer h1{
+    position: absolute;
+    margin-left: 15%;
+    color: rgb(0, 0, 0);
+    text-shadow: 0.1px 0.1px 1px black, 0 0 1px white;
+  }
+  .footer a{
+    float: left;
+    margin-right: 55px;
+    color: black;
+  }

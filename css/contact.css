@@ -1,0 +1,106 @@
+.parent{
+    position: relative;
+    max-width: 110%; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  body{
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  .topnav {
+    top: 0; /* At the bottom. Use top:0 to append it to the top */
+    background-color: black; /* Grey text */
+    width: 100%; /* Full width */
+    overflow: hidden;
+    align-items: center;
+  
+    /*Google Font*/
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+    .topnav a.home {
+      float: left;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 17px;
+      padding: 10px 0px;
+    }
+    
+    .topnav a.menu {
+      float: left;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      padding:30px 10px;
+    }
+  
+    /* Change the color of links on hover */
+    .topnav a.menu:hover {
+      font-size: 20px;
+    }
+  
+    .icons{
+      float:right;
+      margin-right: 55px;
+    }
+  
+    .fa{
+      font-size: 27px;
+      padding-right: 5px;
+    }
+  
+    body{
+        background-color: black;
+    }
+    .text-block {
+      position: relative;
+      margin: 100px;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      position: absolute;
+      font-family: 'Roboto Mono', monospace;
+      left: 14%;
+      font:bold;
+    }
+  
+    
+
+    .footer {
+      position: fixed;
+      background-color: rgba(128, 128, 128, 0.781); /* Grey text */
+      margin: 0 auto;
+      width: 100%; /* Full width */
+      overflow: hidden;
+      font-size: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      bottom: 0;
+    
+      /*Google Font*/
+      font-family: 'Open Sans', sans-serif;
+      font-family: 'Roboto Mono', monospace;
+      font-family: 'Roboto Slab', serif;
+    }
+    .footer a {
+      float: left;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      font-size: 17px;
+      padding: 10px 0px;
+      margin-right: 55px;
+    }
+    .footer h1{
+      float: left;
+      position: absolute;
+      left: 15%;
+      color: rgb(0, 0, 0);
+      text-shadow: 0.1px 0.1px 1px black, 0 0 1px white;
+    }
